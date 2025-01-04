@@ -15,7 +15,7 @@
           />
         </h1>
       </h1>
-      <div class="relative mt-1 p-2 rounded-md bg-gray-100">
+      <div class="relative mt-1">
         <div class="absolute top-2 left-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
