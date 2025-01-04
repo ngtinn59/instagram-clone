@@ -15,7 +15,28 @@
           />
         </h1>
       </h1>
-      <input type="text" placeholder="Search..." class="border rounded p-2" />
+      <div class="relative mt-1 p-2 rounded-md bg-gray-100">
+        <div class="absolute top-2 left-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2.5"
+            stroke="currentColor"
+            class="h-5 w-5 text-gray-700"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+            />
+          </svg>
+        </div>
+        <input
+          class="pl-10 rounded-md focus:ring-black focus:border-black bg-gray-50 border-gray-500 text-sm"
+          type="text"
+        />
+      </div>
       <h1 class="text-xl">Menu</h1>
     </div>
   </div>
